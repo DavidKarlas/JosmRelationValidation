@@ -27,13 +27,13 @@ josm {
   debugPort = 2018
   josmCompileVersion = "18193"
   manifest {
-    version = "1.0.0"
+    version = "1.0.1"
     description = "JOSM plugin for reviewing changes."
     mainClass = "org.openstreetmap.josm.plugins.davidkarlas.RelationValidationPlugin.RelationValidationPlugin"
     minJosmVersion = "18193"
     author = "David Karlaš"
     canLoadAtRuntime = true
-    iconPath = "images/dialogs/reviewPlugin/icon.svg"
+    iconPath = "images/dialogs/relationValidationPlugin/icon.svg"
     website = URL("https://github.com/DavidKarlas/RelationValidationPlugin")
   }
 }
